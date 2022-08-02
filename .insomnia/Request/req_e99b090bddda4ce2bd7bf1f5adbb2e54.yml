@@ -1,0 +1,37 @@
+_id: req_e99b090bddda4ce2bd7bf1f5adbb2e54
+type: Request
+parentId: fld_2395a04307b8457bbf97da1ab084b66b
+modified: 1659466548021
+created: 1659466548021
+url: "{{catalog}}/products/by_category_id"
+name: get_products_by_product_id
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "category_id": 294159,
+        "uf": "SP"
+    }
+parameters: []
+headers:
+  - name: x-api-token
+    value: 28ab0a9c-c6be-46d6-a6bb-c8fba4263474
+  - name: x-api-key
+    value: "{{x_api_key}}"
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjYzViMGQyNy0zNjhmLTRhYWMtYTI2OS00MTcxZjkxNTFlZTMiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.ULv6JeokY0VwS_PVyXe2yWVyeiN9XhBvW7wnf7h5MZI
+  prefix: ""
+metaSortKey: -1659466548021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

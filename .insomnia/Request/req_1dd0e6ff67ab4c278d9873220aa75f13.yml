@@ -1,0 +1,32 @@
+_id: req_1dd0e6ff67ab4c278d9873220aa75f13
+type: Request
+parentId: fld_83c3f686bd6a4d3891ede338d9d927e3
+modified: 1659466964844
+created: 1659466548036
+url: "{{catalog}}/categories"
+name: get_categories
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e7374458a5594ad5b5ef3e2b15b67d19
+    name: store_code
+    value: "99999"
+    description: ""
+headers:
+  - name: x-api-key
+    value: "{{x_api_key}}"
+    id: pair_528d31d56a2b4804bbcd12b4afda83fe
+authentication:
+  type: bearer
+  disabled: true
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmM2ExMDVhYi05OTZjLTQwMGYtYjhhOS0wNmY5YTIwZDRjNDMiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.000FjuldSNHr_gcBNimbfL0PPUPXGWeaUK1w9pcsyCs
+  prefix: ""
+metaSortKey: -1659466548036
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

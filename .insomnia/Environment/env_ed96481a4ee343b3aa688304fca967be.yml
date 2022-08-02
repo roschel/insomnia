@@ -1,0 +1,14 @@
+_id: env_ed96481a4ee343b3aa688304fca967be
+type: Environment
+parentId: env_80be286c2f24d62d5014ecba169b722168071099
+modified: 1659466663695
+created: 1659466589770
+name: Local
+data:
+  catalog: http://0.0.0.0:8301
+dataPropertyOrder:
+  "&":
+    - catalog
+color: null
+isPrivate: false
+metaSortKey: 1659466589770

@@ -1,0 +1,25 @@
+_id: req_2c8e94b0f16346d996ff1b2819d9e1a5
+type: Request
+parentId: fld_2395a04307b8457bbf97da1ab084b66b
+modified: 1659466548026
+created: 1659466548026
+url: "{{catalog_url}}/products/by_category_id"
+name: get_products_by_category_id
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmYWVmM2FlNy1kMjk1LTQ1ZDctYmEwMS1jMDIwM2NhOWQ4OTIiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.RE0FDIvQ93YlqPJ80BSoGUfWDFGN9Ipq7jw1OkpD9Xc
+  prefix: ""
+metaSortKey: -1659466548026
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

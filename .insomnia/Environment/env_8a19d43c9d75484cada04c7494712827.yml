@@ -1,0 +1,14 @@
+_id: env_8a19d43c9d75484cada04c7494712827
+type: Environment
+parentId: env_80be286c2f24d62d5014ecba169b722168071099
+modified: 1659466737106
+created: 1659466629219
+name: Dev
+data:
+  catalog: https://api-app.dev.appbk.burgerking.com.br/catalog
+dataPropertyOrder:
+  "&":
+    - catalog
+color: "#1eff00"
+isPrivate: false
+metaSortKey: 1659466629219
