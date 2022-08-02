@@ -1,30 +1,33 @@
 _id: req_e99b090bddda4ce2bd7bf1f5adbb2e54
 type: Request
 parentId: fld_2395a04307b8457bbf97da1ab084b66b
-modified: 1659466548021
+modified: 1659467663739
 created: 1659466548021
 url: "{{catalog}}/products/by_category_id"
 name: get_products_by_product_id
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
-        "category_id": 294159,
+        "category_id": 110,
         "uf": "SP"
     }
 parameters: []
 headers:
   - name: x-api-token
     value: 28ab0a9c-c6be-46d6-a6bb-c8fba4263474
+    id: pair_729887ca63e840aab9073b8c61cfbd34
   - name: x-api-key
     value: "{{x_api_key}}"
+    id: pair_acda23bb12c84ba8b990b267f2028217
   - name: Content-Type
     value: application/json
+    id: pair_48f899b0d8bc4aa18abea4f916f4370b
 authentication:
   type: bearer
-  disabled: false
+  disabled: true
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjYzViMGQyNy0zNjhmLTRhYWMtYTI2OS00MTcxZjkxNTFlZTMiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.ULv6JeokY0VwS_PVyXe2yWVyeiN9XhBvW7wnf7h5MZI
   prefix: ""
 metaSortKey: -1659466548021
